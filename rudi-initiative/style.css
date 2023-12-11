@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'JosefinSans';
+}
+
+/*header*/
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/rudi-initiative.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container {
+  text-align: center;
+}
+header .container .content h1 {
+  color: rgba(5, 255, 0, 1);
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 20px;
+
+}
+header .container .content h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+header .container .content h4 {
+  color: rgba(5, 255, 0, 1);
+  font-size: 23px;
+  font-weight: 100;
+}
+header .container .content p {
+  color: rgba(5, 255, 0, 1);
+}
+
+/*hero*/
+.hero {
+  width: 100vw;
+  height: 30vh;
+}
+.hero .hero-container .hero-content {
+  margin-left: 150px;
+}
+.hero .hero-container .hero-content h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+/*wildnow*/
+.wildnow {
+  width: 100vw;
+  height: 100vh;
+}
+.wildnow .wildnow-container {
+  width: 100%;
+  padding: 40px;
+}
+
+.wildnow .wildnow-container #kitenge {
+  width: 300px;
+  position: absolute;
+  left: 33%;
+  margin-top: 230px;
+  
+ 
+}
+.wildnow .wildnow-container #desert {
+  width: 300px;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 200px;
+}
+.wildnow .wildnow-container #sculpture {
+  width: 300px;
+  position: absolute;
+  left: 27%;
+  margin-top: 80px;
+}
+.wildnow .wildnow-container #water {
+  width: 300px;
+  position: absolute;
+  right: 15%;
+  margin-top: 120px;
+}
+.wildnow .wildnow-container #giraffe {
+  width: 300px;
+  position: absolute;
+  left: 45%;
+  margin-bottom: 450px;
+  
+}
+
+/*mission*/
+.mission {
+  width: 100vw;
+  height: 40vh;
+}
+.mission .mission-container {
+  margin-top: 40px;
+}
+.mission .mission-container h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.mission .mission-container p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 20vh;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url("images/JosefinSans-VariableFont_wght.ttf");
+}

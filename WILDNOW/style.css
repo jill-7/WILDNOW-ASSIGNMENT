@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: 'JosefinSans';
+}
+/*header*/
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/headerr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container .content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+header .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .content h5 {
+  color: rgba(251, 215, 132, 1);
+  margin-bottom: 20px;
+}
+header .content h1 {
+  color: white;
+  font-weight: 200;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+header .content p {
+  color: white;
+}
+
+header .container h6 {
+  text-align: center;
+}
+header .container .success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(21, 56, 73, 1);
+  width: 500px;
+  height: 220px;
+  margin-top: 150px;
+  margin-right: 150px;
+  padding: 20px;
+  width: 70%;
+  
+}
+header .container .success h6 {
+  font-size: 12px;
+  color: rgba(251, 215, 132, 1);
+}
+header .container .success .success-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+header .container .success .success-images .success-image1 {
+  display: flex;
+  padding: 20px;
+  
+}
+header .container .success .success-images .success-image1 .success-image1-content {
+  display: flex;
+  flex-direction: column;
+}
+#text {
+  margin-bottom: 5px;
+  color: rgba(251, 215, 132, 1);
+}
+header .container .success .success-images .success-image2 {
+  display: flex;
+  padding: 20px;
+}
+header .container .success .success-images .success-image2 .success-image2-content {
+  display: flex;
+  flex-direction: column;
+}
+header .container .success .success-images .success-image3 {
+  display: flex;
+  padding: 20px;
+}
+header .container .success .success-images .success-image3 .success-image3-content {
+  display: flex;
+  flex-direction: column;
+}
+#watering-plants {
+  width: 120px;
+  margin-right: 10px;
+}
+#swimming {
+  width: 120px;
+  margin-right: 10px;
+}
+#beach {
+  width: 120px;
+  margin-right: 10px;
+}
+
+
+
+/*hero*/
+.hero {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero-content {
+  margin-top: 0;
+}
+.hero .hero-content h2 {
+  font-size: 40px;
+  color: gray;
+  opacity: 0.4;
+  margin-bottom: 8px;
+}
+.hero .hero-content h4 {
+  color: rgba(255, 178, 0, 1);
+  opacity: 0.4;
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+.hero .hero-content h5 {
+  font-size: 35px;
+  font-style: oblique;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.hero .hero-content p {
+  font-weight: bold;
+}
+
+.hero .hero-container {
+  background-image: url("images/hero-flower.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  margin-left: 150px;
+}
+
+/*mission*/
+.mission {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission .mission-container {
+  background-image: url("images/mission-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+}
+.mission .mission-content {
+  margin-left: 150px;
+}
+.mission .mission-content h2 {
+  font-size: 40px;
+  color: gray;
+  opacity: 0.4;
+  margin-bottom: 15px;
+}
+.mission .mission-content h4 {
+  color: rgba(255, 178, 0, 1);
+  opacity: 0.3;
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.mission .mission-content h6 {
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: 80;
+  margin-bottom: 10px;
+}
+.mission .mission-content p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.mission .mission-content .tag {
+  color: rgba(255, 178, 0, 1);
+  margin-bottom: 10px;
+}
+.mission .mission-content li {
+  font-weight: bold;
+}
+
+/*objectives*/
+.objective {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.objective .objective-content {
+  margin-top: 0;
+}
+.objective .objective-content h2 {
+  font-size: 40px;
+  color: gray;
+  opacity: 0.4;
+  margin-bottom: 50px;
+}
+.objective .objective-content h4 {
+  color: rgba(255, 178, 0, 1);
+  opacity: 0.3;
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.objective .objective-content h6 {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 60px;
+
+}
+.objective .objective-content li {
+  font-weight: bold;
+}
+.objective .objective-container {
+  background-image: url("images/objectives-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 420px;
+  margin-left: 150px;
+}
+
+/*contacts*/
+.contact {
+  width: 100vw;
+  height: 90vh;
+}
+.contact .contact-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgba(21, 56, 73, 1), white);
+  
+}
+.contact .contact-container .contact-content {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  width: 60%;
+  border: 2px solid rgba(21, 56, 73, 1);
+  padding: 10px;
+  margin-right: 80px;
+  background-color: white;
+  
+}
+.contact .contact-container .contact-content .form {
+  width: 80%;
+  height: 100%;
+}
+.contact .contact-container .contact-content .form .send {
+  margin-left: -5px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+.contact .contact-container .contact-content .form .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+.contact .contact-container .contact-content .form .form-container .f-name {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+ 
+  
+}
+.contact .contact-container .contact-content .form .form-container .f-name #f-name-input {
+  margin-top: 10px;
+  color: black;
+}
+.contact .contact-container .contact-content .form .form-container .f-name hr {
+  width: 250px;
+}
+.contact .contact-container .contact-content .form .form-container .l-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  color: gray;
+  
+  
+}
+.contact .contact-container .contact-content .form .form-container .l-name #l-name-input {
+  margin-top: 10px;
+  color: black;
+}
+.contact .contact-container .contact-content .form .form-container .l-name hr {
+  width: 250px;
+}
+.contact .contact-container .contact-content .form .form-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+.contact .contact-container .contact-content .form .form-content .email {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  
+}
+.contact .contact-container .contact-content .form .form-content .email #email-input {
+  margin-top: 10px;
+}
+.contact .contact-container .contact-content .form .form-content .email hr {
+  width: 250px;
+}
+.contact .contact-container .contact-content .form .form-content .phone {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  color: gray;
+  
+}
+.contact .contact-container .contact-content .form .form-content .phone #phone-input {
+  margin-top: 10px;
+}
+.contact .contact-container .contact-content .form .form-content .phone hr {
+  width: 250px;
+}
+.contact .contact-container .contact-content .form .message {
+  margin-left: -5px;
+  margin-bottom: 20px;
+  color: gray;
+
+}
+.contact .contact-container .contact-content .form .message #message-input {
+  margin-bottom: 10px;
+}
+.contact .contact-container .contact-content .form .message hr {
+  width: 660px;
+}
+.contact .contact-container .contact-content .form .msg {
+  background-color: rgba(21, 56, 73, 1);
+  color: white;
+  margin-left: -5px;
+  width: 150px;
+  padding: 8px 20px;
+  border-radius: 2px;
+}
+
+.contact .contact-container .details-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: -20%;
+  
+ 
+}
+.contact .contact-container .details-container .details-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+.contact .contact-container .details-container .details-content h5 {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.contact .contact-container .details-container .details-content .telephone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+.contact .contact-container .details-container .details-content .telephone #telephone {
+  width: 30px;
+  margin-right: 50px;
+ 
+}
+.contact .contact-container .details-container .details-content .location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+.contact .contact-container .details-container .details-content .location #location {
+  width: 30px;
+  margin-right: 50px;
+ 
+}
+.contact .contact-container .details-container .details-content .www {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.contact .contact-container .details-container .details-content .www #www {
+  width: 30px;
+  margin-right: 50px;
+  
+}
+.contact .contact-container .details-container .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 250px;
+  
+}
+.contact .contact-container .details-container .social-media .insta {
+  margin-right: 25px;
+}
+.contact .contact-container .details-container .social-media .facebook {
+  margin-right: 15px;
+}
+.contact .contact-container .details-container .social-media .twitter {
+  margin-left: 20px;
+}
+.contact .contact-container .details-container .social-media .YT {
+  margin-left: 20px;
+}
+
+/*footer*/
+footer {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url("images/JosefinSans-VariableFont_wght.ttf");
+}
+
+
+
+
+
+
+
